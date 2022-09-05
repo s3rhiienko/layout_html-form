@@ -18,153 +18,139 @@
     >
       <fieldset class="fieldset" name="1">
         <legend>Personal information</legend>
-        <div class="form-field">
-          <label>Surname: 
-            <input 
-              type="text" 
-              autocomplete="off" 
-              minlength="3" 
-              maxlength="32"
-              name="inf"
-            >
-          </label>
-        </div>
-        <div class="form-field">
-          <label>Name: 
-            <input 
-              type="text" 
-              autocomplete="off" 
-              minlength="1" 
-              maxlength="10"
-              name="inf"
-            >
-          </label>
-        </div>
-        <div class="form-field">
-          <label>How old are You? 
-            <input 
-              type="number" 
-              pattern="/dt" 
-              value="12" 
-              min="1" 
-              max="100"
-              name="inf"
-            >
-          </label>
-        </div>
-        <div class="form-field">
-          <label>Full date of birth: 
-            <input 
-              type="date" 
-              placeholder="mm/dd/yyyy"
-              name="inf"
-            >
-          </label>
-        </div>
-        <div class="form-field">
-          <label>I accept the term of the agreement 
-            <input type="checkbox" required>
-          </label>
-        </div>
+        <label class="form-field">
+          Surname: 
+          <input 
+            type="text" 
+            autocomplete="off" 
+            minlength="3" 
+            maxlength="32"
+            name="inf"
+          >
+        </label>
+        <label class="form-field">
+          Name: 
+          <input 
+            type="text" 
+            autocomplete="off" 
+            minlength="1" 
+            maxlength="10"
+            name="inf"
+          >
+        </label>
+        <label class="form-field">
+          How old are You? 
+          <input 
+            type="number" 
+            pattern="/dt" 
+            value="12" 
+            min="1" 
+            max="100"
+            name="inf"
+          >
+        </label>
+        <label class="form-field">
+          Full date of birth: 
+          <input 
+            type="date" 
+            placeholder="mm/dd/yyyy"
+            name="inf"
+          >
+        </label>
+        <label class="form-field">
+          I accept the term of the agreement 
+          <input type="checkbox" required>
+        </label>
       </fieldset>
       <fieldset class="fieldset" name="2">
         <legend>Registration</legend>
-        <div class="form-field">
-          <label>E-mail: 
-            <input 
-              type="email" 
-              placeholder="email@example.com"
-              name="reg"
-            >
-          </label>
-        </div>
-        <div class="form-field">
-          <label>Password: 
-            <input type="password" name="reg">
-          </label>
-        </div>
+        <label class="form-field">
+          E-mail: 
+          <input 
+            type="email" 
+            placeholder="email@example.com"
+            name="reg"
+          >
+        </label>
+        <label class="form-field">
+          Password: 
+          <input type="password" name="reg">
+        </label>
       </fieldset>
       <fieldset class="fieldset" name="3">
         <legend>An interesting fact about you!</legend>
-        <div class="form-field">
-          <label id="cats">Do you love cats? 
-            <input 
-              type="radio" 
-              value="yes" 
-              id="true" 
-              name="cats"
-            >
-            <label for="true">Yes</label>
-            </input>
-            <input 
-              type="radio" 
-              value="no" 
-              id="false" 
-              name="cats"
-            >
-            <label for="false">No</label>
-            </input>
-          </label>
-        </div>
-        <div>
-          <label class="int_color">What is your favorite color?    
-            <input 
-              type="color" 
-              class="int_color"
-              name="int"
-            >
-            </input>
-          </label>
-        </div>
-        <div class="form-field">
-          <label>What time do you  go to bed? 
-            <input 
-              type="time"
-              step="2"
-              name="int"
-            >
-          </label> 
-        </div>
-        <div class="form-field">
-          <label>What are your favorite brand of cars? 
-            <select 
-              name="carBrands" 
-              class="input int_car" 
-              multiple
-            >
-              <option value="BMW">BMW</option>
-              <option value="Audi">Audi</option>
-              <option value="Lada">Lada</option>
-            </select>
-          </label>
-        </div>
-        <div class="form-field">
-          <label>How do you rate our work? 
-            <input 
-              type="range" 
-              value="0" 
-              min="1" 
-              max="10"
-              name="int"
-            >
-          </label>
-        </div>
+        <label id="cats" class="form-field">
+          Do you love cats? 
+          <input 
+            type="radio" 
+            value="yes" 
+            id="true" 
+            name="cats"
+          >
+          <label for="true">Yes</label>
+          </input>
+          <input 
+            type="radio" 
+            value="no" 
+            id="false" 
+            name="cats"
+          >
+          <label for="false">No</label>
+          </input>
+        </label>
+        <label class="int_color">
+          What is your favorite color?    
+          <input 
+            type="color" 
+            class="int_color"
+            name="int"
+          >
+          </input>
+        </label>
+        <label class="form-field">
+          What time do you  go to bed? 
+          <input 
+            type="time"
+            step="2"
+            name="int"
+          >
+        </label> 
+        <label class="form-field">
+          What are your favorite brand of cars? 
+          <select 
+            name="carBrands" 
+            class="input int_car" 
+            multiple
+          >
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Lada">Lada</option>
+          </select>
+        </label>
+        <label class="form-field">
+          How do you rate our work? 
+          <input 
+            type="range" 
+            value="0" 
+            min="1" 
+            max="10"
+            name="int"
+          >
+        </label>
       </fieldset>
       <fieldset class="fieldset" name="4">
         <legend>Additional info:</legend>
-        <div>
-          <label class="add_com">Comments: 
-            <textarea cols="20" rows="2"></textarea>
-          </label>
-        </div>
-        <div class="form-field">
-          <label class="add_rec">Would you recommend us? 
-            <select>
-              <option value="true">yes</option>
-              <option value="false">no</option>
-            </select> 
-          </label>
-        </div> 
+        <label class="add_com">
+          Comments: 
+          <textarea cols="20" rows="2"></textarea>
+        </label>
+        <label class="add_rec form-field">
+          Would you recommend us? 
+          <select>
+            <option value="true">yes</option>
+            <option value="false">no</option>
+          </select> 
+        </label>
       </fieldset>
       <button 
         type="submit" 
