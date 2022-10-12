@@ -14,7 +14,6 @@
     <form 
       action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
       method="post" 
-      class="form"
     >
       <fieldset class="fieldset" name="1">
         <legend>Personal information</legend>
@@ -98,11 +97,10 @@
           <label for="false">No</label>
           </input>
         </label>
-        <label class="int_color">
+        <label class="form-field">
           What is your favorite color?    
           <input 
             type="color" 
-            class="int_color"
             name="int"
           >
           </input>
@@ -119,7 +117,6 @@
           What are your favorite brand of cars? 
           <select 
             name="carBrands" 
-            class="input int_car" 
             multiple
           >
             <option value="BMW">BMW</option>
@@ -140,11 +137,11 @@
       </fieldset>
       <fieldset class="fieldset" name="4">
         <legend>Additional info:</legend>
-        <label class="add_com">
+        <label class="form-field">
           Comments: 
           <textarea cols="20" rows="2"></textarea>
         </label>
-        <label class="add_rec form-field">
+        <label class="form-field">
           Would you recommend us? 
           <select>
             <option value="true">yes</option>
@@ -154,7 +151,6 @@
       </fieldset>
       <button 
         type="submit" 
-        class="button"
       >
         Submit
       </button>
